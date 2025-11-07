@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 
 FIELDS = [
-    ("status", "Under Review / Accepted / Rejected / RFC"),
+    ("status", "Under Review / Ongoing / Accepted / Rejected"),
     ("patch_commit", ""),
     ("regression_commit", ""),
     ("subsystem", ""),

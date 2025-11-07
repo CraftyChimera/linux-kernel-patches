@@ -2,6 +2,14 @@
 
 This directory contains Linux kernel patches I’ve worked on, organized by category (features, bug fixes, etc).
 
+You can find all my patches by running
+
+```bash
+git log --author="I Viswanath"
+```
+
+on the mainline or the relevant -next tree if it's a feature that is yet to be merged.
+
 ## Statistics:
 
 ### Subsystem Summary
@@ -18,7 +26,7 @@ Here's the count of upstreamed patches grouped by subsystem:
 
 | Rank | Category | Description | Count |
 |------|------|-------------| ----- |
-| 1 | **features** | New features and major architectural improvements | 0 |
+| 1 | **features** | New features and major architectural improvements | 1 (Ongoing) |
 | 2 | **bug_fixes** | Fixes for runtime bugs or crashes authored by me (often found via syzkaller) | 3 |
 | 3 | **backports** | Fixes authored by others, cherry-picked from newer kernels | 0 |
 | 4 | **build_fixes** | Fixes for build failures or errors specific to certain features | 0 |
@@ -33,7 +41,7 @@ Each patch note file includes a **Patch Info** table and a **Summary** section.
 
 ### Properties
 
-- **status** — The current state of the patch (`Under Review`, `Accepted`, `Rejected`, `RFC`).
+- **status** — The current state of the patch (`Under Review`, `Ongoing`, `Accepted`, `Rejected`).
 - **fix_commit** — If Accepted, this is the commit hash of the applied patch and left empty otherwise. **Applicable only to bug fix patches**
 - **regression_commit** — The commit that introduced the regression. **Applicable only to bug fix patches**
 - **subsystem** — The affected Kernel subsystem (e.g., `net`, `mm`, `i2c`, `usb`).
