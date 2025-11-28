@@ -10,6 +10,7 @@
 | **dashboard_url** | https://syzkaller.appspot.com/bug?extid=78cae3f37c62ad092caa |
 | **discussion_url** | https://patch.msgid.link/20250924134350.264597-1-viswanathiyyappan@gmail.com |
 | **backported** | yes |
+| **blog_url** | https://craftychimera.github.io/posts/linux/syzkaller/ |
 
 ### Summary
 

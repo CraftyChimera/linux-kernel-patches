@@ -7,6 +7,7 @@
 | **subsystem** | I2C |
 | **title** | i2c: Clarify behavior of I2C_M_RD flag |
 | **discussion_url** | https://lore.kernel.org/all/20250709151402.7811-2-viswanathiyyappan@gmail.com/ |
+| **blog_url** | https://craftychimera.github.io/posts/linux/linux_upstream/ |
 
 ### Summary
 
